@@ -133,6 +133,7 @@ body {
     flex-wrap: nowrap;
     overflow-x: auto;
     margin-top: 20px;
+
 }
 
 .client-items {
@@ -140,9 +141,20 @@ body {
     margin: 0 10px;
     text-align: center;
 }
+/* #clients{
+    flex-wrap: wrap;
+    width: 1000px;
+    padding: 56px;
+} */
+
+#client img{
+    width: 36px;
+        padding: 14px 0px;
+        margin-left: 100px
+}
 
 .client-items img {
-    max-width: 100%;
+    max-width: 200px;
     height: 450px;
     border: 2px solid black;
 }
@@ -204,7 +216,7 @@ footer {
     }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 791px) {
     #services .box {
         flex: 0 0 calc(100% - 20px);
     }
@@ -213,3 +225,4 @@ footer {
         flex: 0 0 calc(100% - 20px);
     }
 }
+

@@ -4,15 +4,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>food delivery web</title>
+    <title>Food Delivery Web</title>
     <link rel="stylesheet" href="css/style.css">
-    <!-- <link rel="stylesheet" href="css/phone.css">  -->
-    <link rel="stylesheet" media="screen and (max-width:1170px)" href="css/phone.css">
+    <link rel="stylesheet" href="css/phone.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&family=Roboto+Slab:wght@300&display=swap"
         rel="stylesheet">
 </head>
@@ -20,20 +17,18 @@
 <body>
     <nav id="navbar">
         <div id="logo">
-            <img src="my logo.jpg" alt="mymeals.com">
+            <img src="my-logo.jpg" alt="mymeals.com">
         </div>
-
         <ul>
             <li class="item"><a href="#home">Home</a></li>
             <li class="item"><a href="#service-container">Services</a></li>
             <li class="item"><a href="#client-section">About us</a></li>
             <li class="item"><a href="#contact">Contact us</a></li>
-
         </ul>
     </nav>
 
     <section id="home">
-        <h1 class="h-primary"> Welcome to my online meal</h1>
+        <h1 class="h-primary"> Welcome to My Online Meal</h1>
         <p>
             Discover a world of culinary delight at your fingertips. Whether you're craving comfort food, exploring new
             flavors, or planning a special occasion, we've got you covered. Browse our curated selection of
@@ -41,9 +36,6 @@
             indulgences, we deliver quality meals straight to your doorstep. Join our community of food enthusiasts and
             let's make every meal memorable.
         </p>
-        <!-- <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci soluta temporibus omnis natus aut illum, amet ducimus vel sed dignissimos quis repellendus aliquam voluptatibus repellat!
-            </p> -->
         <button class="btn">Order Now</button>
     </section>
 
@@ -76,6 +68,7 @@
             </div>
         </div>
     </section>
+
     <section id="client-section">
         <h1 class="h-primary center">Our Clients</h1>
         <div id="clients">
@@ -91,8 +84,9 @@
             <div class="client-items">
                 <img src="img/logo3.webp" alt="our clients">
             </div>
+        </div>
     </section>
-    </section>
+
     <section id="contact">
         <h1 class="h-primary center">Contact Us</h1>
         <div id="contact-box">
@@ -101,23 +95,22 @@
                     <label for="name">Name</label>
                     <input type="text" name="name" id="name" placeholder="Enter your name">
                 </div>
+                <div class="form-group">
+                    <label for="phone">Phone No</label>
+                    <input type="tel" name="phone" id="phone" placeholder="Phone number">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email" placeholder="Enter your email">
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea name="message" id="message" cols="30" rows="10"></textarea>
+                </div>
+                <button type="submit" class="btn">Submit</button>
             </form>
-            <div class="form-group">
-                <label for="name">Phone no</label>
-                <input type="phone" name="name" id="name" placeholder="Phone number ">
-            </div>
-            <div class="form-group">
-                <label for="name">Email</label>
-                <input type="email" name="name" id="name" placeholder="Enter your name">
-            </div>
-            <div class="form-group">
-                <label for="name">Message</label>
-                <textarea name="message" id="message" cols="30" rows="10"></textarea>
-            </div>
         </div>
-
     </section>
-
 
     <footer>
         <div class="center">
