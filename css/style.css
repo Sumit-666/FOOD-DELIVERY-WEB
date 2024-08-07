@@ -76,10 +76,15 @@ body {
     background-color: rgb(190, 100, 100);
     color: white;
     border: none;
-    border-radius: 5px;
+    border-radius: 9px;
     font-size: 1.1rem;
     cursor: pointer;
     transition: background-color 0.3s ease;
+}
+
+#order{
+    color: white;
+    text-decoration-line: none;
 }
 
 #home .btn:hover {
