@@ -21,7 +21,7 @@ body {
     background-color: #333;
     color: #fff;
     padding: 10px 0;
-    position: fixed;
+    position: relative;
     width: 100%;
     z-index: 1000;
 }
@@ -205,14 +205,17 @@ footer {
     /* Responsive adjustments */
     #navbar ul {
         display: flex;
-        position: fixed;
+        position: relative;
         width: 100%;
         background: #333;
-        top: 70px;
-        left: -100%;
+        top: 7px;
+        right: 0%;
         text-align: center;
         z-index: 10;
         transition: all 0.5s;
+    }
+    #logo{
+        display: flex;
     }
 
     #navbar ul li {
@@ -229,3 +232,13 @@ footer {
         text-align: center;
     }
 }
+
+/* @media screen and (max-width: 791px) {
+    #services .box {
+        flex: 0 0 calc(100% - 20px);
+    }
+
+    .client-items {
+        flex: 0 0 calc(100% - 20px);
+    } */
+/* } */

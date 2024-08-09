@@ -27,6 +27,7 @@ body {
     padding: 2%;
     background-color: var(--softGreenColor);
     height: max-content;
+    margin-top: 0px;
 }
 
 .orderNavbar {
