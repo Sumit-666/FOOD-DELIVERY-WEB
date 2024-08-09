@@ -20,12 +20,12 @@ $(document).ready(function() {
 
 // Example JavaScript functionality
 
-// Toggle menu button (if applicable)
-const menuToggle = document.querySelector('.menu-toggle');
-menuToggle.addEventListener('click', () => {
-    // Implement menu toggle functionality here
-    alert('Menu toggled!');
-});
+// // Toggle menu button (if applicable)
+// const menuToggle = document.querySelector('.menu-toggle');
+// menuToggle.addEventListener('click', () => {
+//     // Implement menu toggle functionality here
+//     alert('Menu toggled!');
+// });
 
 // Example for handling card hover effects (if needed)
 const detailCards = document.querySelectorAll('.detail-card');
