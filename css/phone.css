@@ -204,7 +204,7 @@ footer {
 @media (max-width: 768px) {
     /* Responsive adjustments */
     #navbar ul {
-        display: none;
+        display: flex;
         position: fixed;
         width: 100%;
         background: #333;
