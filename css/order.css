@@ -340,6 +340,7 @@ body {
     .detail-card {
         margin: 1% 0;
         padding: 0.5rem;
+        height: fit-content;
     }
 
     .detail-img {
